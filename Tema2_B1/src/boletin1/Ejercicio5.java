@@ -38,7 +38,7 @@ public class Ejercicio5 {
 			System.out.println(a+">"+c+">"+b);
 		}
 		
-		else if (b>a &&b>c) {
+		else if (b>a &&a>c) {
 			
 			System.out.println(b+">"+a+">"+c);
 		}
