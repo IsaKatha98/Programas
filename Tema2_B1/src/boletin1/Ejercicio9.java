@@ -25,8 +25,6 @@ public class Ejercicio9 {
 		
 		//Instrucciones
 		
-		
-		
 		if (j1==j2) {
 			System.out.println("Ha habido empate.");
 			
