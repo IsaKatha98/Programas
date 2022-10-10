@@ -31,8 +31,14 @@ public class Ejercicio10 {
 		if(c==a+b) {
 			System.out.println("La sumatoria de "+a+" más "+b+" da como resultado "+c);
 			
-		}else {
-			System.out.println("La sumatoria de "+a+" más "+b+" no da como resultado "+c);
+		}else if (b==a+c){
+			System.out.println("La sumatoria de "+a+" más "+c+" da como resultado "+b);
+			
+		}else if (a==b+c) {
+			System.out.println("La sumatoria de "+b+" más "+c+" da como resultado "+a);
+		
+		} else {
+			System.out.println("Ninguno de los números es el resultado de la sumatoria de los otros dos.");
 			
 		}
 

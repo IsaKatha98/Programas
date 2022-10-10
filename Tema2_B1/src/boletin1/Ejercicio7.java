@@ -17,7 +17,7 @@ public class Ejercicio7 {
 			
 	//Le pediremos al usuario que introduzca los datos y los guardaremos en la variable.
 			
-	System.out.print("Introduzca un número y pulse Intro: ");
+	System.out.print("Introduzca un número enrte 0 y 99.999 (ambos inclusive) y pulse Intro: ");
 	num=sc.nextInt();
 	
 	//Instrucciones
@@ -37,6 +37,9 @@ public class Ejercicio7 {
 	
 	}else if (num>=10000&&num<=99999) {
 		System.out.println("Es un número de cinco cifras.");
+	
+	}else {
+		System.out.println("Este número se encuentra fuera del rango solicitado.");
 	}
 
 	//Por último, cerramos el escáner.
