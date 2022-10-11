@@ -11,6 +11,7 @@ public class Ejercicio6 {
 	int a; //Variable introducida por el usuario.
 	int b;//Segunda variable introducida por el usuario.
 	int c;//Tercera variable introducida por el usuario.
+	final int RAIZ;//La raíz cuadrada de la ecuación de segundo grado  
 	double x1;//Variable resultado.
 	double x2;//Variable resultado.
 		
@@ -30,15 +31,15 @@ public class Ejercicio6 {
 	
 	//Ejecutamos la ecuación de segundo grado
 	
-	if(a==0) {
+	RAIZ = b*b-4*a*c;
+	
+	if(RAIZ<0) {
 		
-		x1=-c/b;
+		System.out.println("ERROR");
 		
-		System.out.println("Da como resultado: "+x1);
+	} else  {
 		
-	} else if(b==0) {
-		
-		x1=Math.sqrt((-c)/a);
+		x1=
 		
 		System.out.println("Da como resultado: "+x1);
 		
